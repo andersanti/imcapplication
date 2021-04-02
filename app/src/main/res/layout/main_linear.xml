@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/tittleTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/tittle_bluedark"
+        android:text="@string/imc"
+        tools:layout_conversion_absoluteHeight="64dp"
+        tools:layout_editor_absoluteY="241dp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_conversion_absoluteWidth="88dp" />
+
+    <EditText
+        android:id="@+id/weigthEDT"
+        android:hint="@string/insert_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/input_style"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_editor_absoluteY="341dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_conversion_absoluteWidth="265dp" />
+
+    <EditText
+        android:id="@+id/heigthEDT"
+        style="@style/input_style"
+        android:hint="@string/insert_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_conversion_absoluteWidth="265dp" />
+
+    <Button
+        android:id="@+id/calculationBTN"
+        android:text="@string/calculation"
+        android:backgroundTint="@color/teal_700"
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_conversion_absoluteHeight="63dp"
+        tools:layout_editor_absoluteY="503dp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_conversion_absoluteWidth="111dp" />
+
+
+</LinearLayout>
